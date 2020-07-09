@@ -38,25 +38,45 @@ header p {
 	width: 100px;
 	flex: 1;
 	cursor: pointer;
+	transition: all 0.4s ease-in;
 }
 
 .pad1 {
 	background: #60d393;
 }
+
+.pad1:hover {
+	background: #76d3a0;
+}
 .pad2 {
 	background: #d36060;
+}
+.pad2:hover {
+	background: #d47878;
 }
 .pad3 {
 	background: #c060d3;
 }
+.pad3:hover {
+	background: #bd78ca;
+}
 .pad4 {
 	background: #d3d160;
+}
+.pad4:hover {
+	background: #d4d37f;
 }
 .pad5 {
 	background: #6860d3;
 }
+.pad5:hover {
+	background: #8681cf;
+}
 .pad6 {
 	background: #160d94;
+}
+.pad6:hover {
+	background: #3a3496;
 }
 
 .visual > div {
